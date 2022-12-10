@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+     <title>Contact</title>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+  <link rel="stylesheet" href="contact.css" />
+   <script src="contact.js"></script>
+   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="page_daccueil.html">
+        <h1 id="en-haut">Paris Atypique</h1></a>
+      <p class="description">
+        Bienvenue dans le guide touristique des musées les plus insolites à
+        visiter dans la capitale française !
+      </p>
+<hr>
+      <!--the navigation barre on the top of the page-->
+<div class="navbar">
+  <a href="Musee_du_Vin.html">Musée du Vin</a>
+  <a href="Musee_du_Fumeur.html">Musée du Fumeur</a>
+  <a href="catacombes_de_paris.html">Les Catacombes de Paris</a>
+  <a href="Les_Serres_dAuteuil.html">Les Serres d'Auteuil</a>
+  <a href="Musee_de_la_contrefacon.html">Musée de la Contrefaçon</a>
+  <div class="dropdown">
+    <button class="dropbtn">Infos Pratiques&ensp;&#10095;
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="contact.html">Contact</a>
+      <a href="Glossaire.html">Glossaire</a>
+    </div>
+  </div>
+</div>
+<hr>
+
+<body>
+<!--the main picture of the page-->
+<div class="main img">
+  <img src="jpg/la tour eiffel.jpg" alt="la tour eiffel">
+</div>
+
+<div class="contact">
+  <a href="mailto:paris.atypique13@gmail.com?subject=Demande d'Information sur&amp;body=Bonjour, j'aimerais bien me renseigner sur ">
+  Nous Contacter</a>
+</div>
+
+<h2>Où Nous trouver</h2><br><br>
+<section class="lieu">
+<p>
+  <br><br><br>
+  Université Paris I Panthéon Sorbonne - <br>
+  Centre Pierre Mendès France <br>
+  17 Rue de Tolbiac <br>
+  75013 Paris <br>
+  France
+</p>
+
+<body onload="javascript:loadLeafletMap();">
+<div id="map" class="leaflet-container"></div>
+</section>
+</body>
+<br><br><br>
+
+<footer>
+<div>
+    <img src="png/logo.noir.png" alt="Logo Paris Atypique" width="200px" height="100px"><br>
+</div>
+
+<!--the Social Media plateforms facebook&instagram-->
+<section class="links">
+      <nav class="ext-links">
+        <div>
+        <a href="https://twitter.com/AlessandraPieg2">
+        <img src="png/Twitter-logo.png" alt="twitter" width="30px"></a>
+        </div><br>
+        <div>
+        <a href="https://www.instagram.com/parisatypique1/">
+        <img src="png/Instagram-logo.png" alt="Instagram" width="30px"></a>
+      </nav>
+      </div>
+  </section>
+
+<!--go up button-->
+<div class="btn">
+  <a href="#en-haut">
+  <img src="png/up.png" alt="remonter en haut" class="icone"></a>
+</div>
+
+<!--the end of the page-->
+<hr>
+<div class="nav-bas">
+<a href="contact.html" title="Contact">Contact ｜</a>
+<a href="mentionslegales.html">Mentions Légales</a><br><br>
+</div>
+</footer>
+</html>

@@ -1,0 +1,170 @@
+h1{
+    text-align: center;
+    color:black;
+    font-family: Georgia, serif;
+    font-style:italic;
+    font-weight: 100;
+    font-variant-ligatures: normal;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+.description{
+    text-align: center;
+    color:black;
+    font-family: Georgia, serif;
+    background-color: white;
+}
+
+/* Navbar container */
+.navbar {
+    margin-left:180px;
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-family: Georgia, serif;
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family:Georgia, serif;; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+   color:gold; 
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    .main img{
+        width: 100%;
+        z-index: -3;
+        left: 2em;
+        right: 2em;
+        }
+
+    h2{
+        text-align:center;
+        color:black;
+        font-family: Georgia, serif;
+        font-style:italic;
+        letter-spacing: 1px;
+        font-weight: 100;
+    }
+    
+    .center{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #activities {
+        column-count:3;
+    }
+    .activity{
+      padding: 10px;
+      transition: box-shadow .3s;
+    
+    }
+    .activity:hover {
+      box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+
+span{
+  font-family: Georgia, serif;
+  margin-left: 10px;
+}
+
+    footer{
+        font-family: Georgia, serif;
+        color:white;
+        background-color: black;
+        overflow:hidden;
+        top: 1760px;
+        width:100%;
+        position:absolute;
+    }
+    
+    .btn{
+        margin-left: 1300px;
+    }
+    
+    .ext-links{
+        margin-left: 3em;
+    }
+    
+    .nav-en-bas{
+        margin-top: 20px;
+        margin-left: 800px;
+        line-height: 2em;
+    }
+    
+    .links{
+    display:flex
+    }
+    
+    .nav-bas{
+        margin-left: 3em;
+        color:white;
+    }
+
+a{
+  color: white;
+  text-decoration:none;
+}
+a:hover{
+  color:gold; 
+}

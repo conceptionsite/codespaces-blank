@@ -1,0 +1,162 @@
+h1{
+text-align: center;
+color:white;
+font-family: Georgia, serif;
+font-style:italic;
+font-weight: 100;
+font-variant-ligatures: normal;
+font-size: 2rem;
+letter-spacing: 1px;
+}
+
+.description{
+text-align: center;
+color:white;
+font-family: Georgia, serif;
+
+}
+
+/* Navbar container */
+.navbar {
+    margin-left:180px;
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-family: Georgia, serif;
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family:Georgia, serif;; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+   color:gold; 
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: black;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+body{
+    background-color: black;
+}
+
+.main img{
+    
+    position:absolute;
+    top: 164px;
+    width: 100%;
+    z-index: -3;
+}
+
+.contact{
+    position:absolute;
+    width:180px;
+    top: 800px;
+    left: 640px;
+    border-radius: 25px;
+    background:rgb(193, 186, 186);
+    padding: 20px;
+    width: 100px;
+    height: 15px; 
+}
+
+h2{
+margin-top: 1000px;
+text-align: center;
+color:white;
+font-family: Georgia, serif;
+font-style:italic;
+font-weight: 100;
+font-variant-ligatures: normal;
+letter-spacing: 1px;
+}
+
+.lieu{
+    display: flex;
+    color:white;
+    margin-left: 180px;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    margin-left: 250px;
+    max-width: 100%;
+    max-height: 100%;
+    align-content: center;
+}
+
+span{
+  color:white;
+  font-family: Georgia, serif;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.links{
+  margin-left: 50px;
+}
+
+.btn{
+  margin-left: 1300px;
+}
+
+.nav-bas{
+  margin-left: 50px;
+}
